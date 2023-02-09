@@ -1,6 +1,6 @@
  <h1>:zap: PROJETS  DÉFIS :zap:</h1>
 
-:small_red_triangle_down: Les projets pour le défis du serveur discord (https://discord.gg/HErpkxbmbS) doivent-être mis dans le répertoire suivant: https://github.com/orgs/La-minute-de-code/repositories.
+:small_red_triangle_down: Les projets pour le défis du serveur discord (https://discord.gg/HErpkxbmbS) doivent-être mis dans ce répertoire.
 
 **Rappel:**
 

@@ -1,6 +1,6 @@
  <h1>:zap: PROJETS  DÉFIS :zap:</h1>
 
-:small_red_triangle_down: Les projets pour le défis de la semaine du salon #⚡┇𝗗𝗲𝗳𝗶𝘀  doivent-être mis dans le répertoire suivant: https://github.com/orgs/La-minute-de-code/repositories.
+:small_red_triangle_down: Les projets pour le défis du serveur discord (https://discord.gg/HErpkxbmbS) doivent-être mis dans le répertoire suivant: https://github.com/orgs/La-minute-de-code/repositories.
 
 **Rappel:**
 
@@ -15,4 +15,3 @@ Pour mettre un fichier sur le git:
 > 7) Exécuter la commande: **git commit -m "[VOTRE TEXTE]"**
 > 8) Exécuter la commande: **git push --set-upstream origin [NOM DE VOTRE BRANCH]**
 
-Discord: https://discord.gg/HErpkxbmbS

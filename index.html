@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <title>Nike Jordan - Noir</title>
+</head>
+
+<body>
+  <header>
+    <!-- Inclure l'API de Font Awesome -->
+
+    <!-- Créez un conteneur pour la barre de navigation -->
+    <nav id="navbar" class="navbar">
+      <div class="navbar-brand">Shooses</div>
+      <!-- Créez un bouton de type "button" pour le bouton "hamburger" -->
+      <button id="nav-toggle" class="nav-toggle">
+        <!-- Créez une icône de hamburger avec Font Awesome -->
+        <i class="fas fa-bars"></i>
+      </button>
+      <!-- Créez une liste d'éléments de navigation -->
+      <ul id="nav-menu" class="nav-menu">
+        <!-- Déplacez le premier lien en dessous de la barre de navigation -->
+        <!-- Ajouter un lien pour fermer le menu de navigation en plein écran -->
+        <li><a id="home" href="#">Accueil</a></li>
+        <li><a id="aboutButton" href="#">Boutique</a></li>
+        <li><a id="contactButton" href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="left-section">
+      <div class="carousel">
+        <div class="slide">
+          <img
+            src="https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/ti61nslwh35whirn9drr/womens-air-jordan-i-twist-release-date.jpg"
+            alt="image1">
+        </div>
+        <div class="slide">
+          <img
+            src="https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/a2xc2snk9pr1tnwl8j53/womens-air-jordan-i-twist-release-date.jpg"
+            alt="image2">
+        </div>
+        <div class="slide">
+          <img
+            src="https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/p55iusrtrzli32qostcx/womens-air-jordan-i-twist-release-date.jpg"
+            alt="image3">
+        </div>
+      </div>
+    </div>
+    <div class="right-section">
+      <h2>Nike Jordan</h2>
+      <h3><span style="text-decoration: line-through; font-weight: lighter; color: #CFCFCF;">159.99€</span> 144.99€</h3>
+      <p>Celle qui a tout déclenché est tenue en très haute estime dans le folklore de la chaussure. Cette version
+        s'inspire de l'OG dans un coloris noir et blanc, mais la transforme pour afficher une silhouette féminine.
+        L'empeigne alliant cuir et poils synthétiques attire tous les regards. Le logo Wings perfectionné et les embouts
+        métalliques ajoutent une touche d'élégance au design classique.</p>
+      <div id="button">
+        <button
+          onclick="resetColors(this); this.style.backgroundColor = 'white', this.style.color = '#E16E79'">39</button>
+        <button
+          onclick="resetColors(this); this.style.backgroundColor = 'white', this.style.color = '#E16E79'">40</button>
+        <button
+          onclick="resetColors(this); this.style.backgroundColor = 'white', this.style.color = '#E16E79'">41</button>
+        <button
+          onclick="resetColors(this); this.style.backgroundColor = 'white', this.style.color = '#E16E79'">42</button>
+        <button
+          onclick="resetColors(this); this.style.backgroundColor = 'white', this.style.color = '#E16E79'">43</button>
+        <button
+          onclick="resetColors(this); this.style.backgroundColor = 'white', this.style.color = '#E16E79'">44</button>
+        <button
+          onclick="resetColors(this); this.style.backgroundColor = 'white', this.style.color = '#E16E79'">44</button>
+        <button
+          onclick="resetColors(this); this.style.backgroundColor = 'white', this.style.color = '#E16E79'">45</button>
+      </div>
+      <div id="dispo">
+        <p style="color: green;"><i class="fas fa-check"></i> En Stock</p>
+      </div>
+      <div id="cart">
+        <button id="cart"><i class="fas fa-cart-arrow-down" style="color: white;"></i> Ajouter au panier</button>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img
+        src="https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/ti61nslwh35whirn9drr/womens-air-jordan-i-twist-release-date.jpg">
+      <img
+        src="https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/awfrywd4popbuuoir9ua/womens-air-jordan-i-twist-release-date.jpg">
+      <img
+        src="https://static.nike.com/a/images/w_1920,c_limit,f_auto/bivrvzdag6kjxg20p9cv/womens-air-jordan-i-twist-release-date.jpg">
+
+    </div>
+    <div class="column">
+      <img
+        src="https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/a2xc2snk9pr1tnwl8j53/womens-air-jordan-i-twist-release-date.jpg">
+      <img
+        src="https://static.nike.com/a/images/t_prod_sc/w_640,c_limit,f_auto/oqdo0cnk9rvqml7wn6cv/womens-air-jordan-i-twist-release-date.jpg">
+      <img
+        src="https://static.nike.com/a/images/w_1920,c_limit,f_auto/slab5ylssyrzqllna4zi/womens-air-jordan-i-twist-release-date.jpg">
+
+    </div>
+    <div class="column">
+      <img
+        src="https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/p55iusrtrzli32qostcx/womens-air-jordan-i-twist-release-date.jpg">
+      <img
+        src="https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/cyvhpsfolz6nivzaohuh/womens-air-jordan-i-twist-release-date.jpg">
+      <img
+        src="https://static.nike.com/a/images/w_1920,c_limit,f_auto/zovadzj434jendbzimya/womens-air-jordan-i-twist-release-date.jpg">
+
+    </div>
+  </div>
+  <div id="avis">
+    <h1>Les avis</h1>
+    <div id="oneReview">
+      <h3>Julien C.</h3>
+      <p><i class="fas fa-star" style="color: rgb(255, 183, 0)"></i><i class="fas fa-star"
+          style="color: rgb(255, 183, 0)"></i><i class="fas fa-star" style="color: rgb(255, 183, 0)"></i><i
+          class="fas fa-star" style="color: rgb(255, 183, 0)"></i><i class="fas fa-star"
+          style="color: rgb(255, 183, 0)"></i></p>
+      <p>Superbe chaussures très confortables, pour une prix correct. Ma fille est très contente</p>
+    </div>
+    <div id="oneReview">
+      <h3>Salomé U.</h3>
+      <p><i class="fas fa-star" style="color: rgb(255, 183, 0)"></i><i class="fas fa-star"
+          style="color: rgb(255, 183, 0)"></i><i class="fas fa-star" style="color: rgb(255, 183, 0)"><i
+            class="fas fa-star" style="color: rgb(255, 183, 0)"></i></i><i class="fas fa-star-half"
+          style="color: rgb(255, 183, 0);"></i></p>
+      <p>Chaussures confortables, et classes, dans un délais de livraison plus que correct. Par contre le prix est un
+        peu cher.</p>
+    </div>
+    <div id="oneReview">
+      <h3>Guillaume L.</h3>
+      <p><i class="fas fa-star" style="color: rgb(255, 183, 0)"></i><i class="fas fa-star"
+          style="color: rgb(255, 183, 0)"></i><i class="fas fa-star" style="color: rgb(255, 183, 0)"></i><i
+            class="fas fa-star" style="color: rgb(255, 183, 0)"></i><i class="fas fa-star" style="color: rgb(255, 183, 0)"></i></p>
+      <p>Parfaites pour un cadeau! J'ai beaucoup aimé cette couleur blanche.</p>
+    </div>
+  </div>
+  <div id="hehe">
+    <div id="hehe1">
+      <i class="fas fa-truck fa-3x"></i>
+      <p>livraison gratuite</p>
+    </div>
+    <div id="hehe1">
+      <i class="fas fa-reply fa-3x"></i>
+      <p>Retours gratuits</p>
+    </div>
+    <div id="hehe1">
+      <i class="fas fa-lock fa-3x"></i>
+      <p>Payment sécurisé</p>
+    </div>
+  </div>
+  <script src="src/js/main.js"></script>
+</body>
+
+</html>
+<!-- https://m.media-amazon.com/images/I/81dy8DQ+D0L._AC_UL1500_.jpg -->
+<!--  -->

@@ -1,0 +1,228 @@
+html{
+  font-family: 'Roboto', sans-serif;
+}
+
+#navbar {
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    z-index: 999;
+    position: fixed;
+    transition: background-color 0.5s;
+}
+
+/*Style de l'élément du prénom/nom */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 30px;
+    color: #228FCF;
+}
+
+/* Style des éléments de la liste */
+#nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-end;
+}
+
+/* Style des liens de la barre de navigation */
+#navbar a {
+    color: #E16E79;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 20px;
+    transition: all 0.2s;
+}
+
+/* Style du bouton "hamburger" */
+#nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* style du nav-toggle */
+#nav-toggle i {
+    font-size: 30px;
+    color: #E16E79;
+}
+
+/* Style des liens de la barre de navigation */
+#navbar a {
+    color: #228FCF;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px;
+    display: block;
+    transition: all 0.2s;
+}
+
+@media (max-width: 768px) {
+    #nav-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* #nav-toggle {
+        display: block;
+    } */
+
+    #navbar a {
+        padding: 20px;
+    }
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+.left-section {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 120px;
+}
+.right-section {
+  width: 50%;
+  text-align: center;
+  margin-top: 150px;
+}
+.carousel {
+  width: 80%;
+  height: 400px;
+  overflow: hidden;
+}
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.right-section p{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#button {
+  align-items: center;
+  margin-bottom: 40px;
+}
+#button button{
+  background-color: #E16E79;
+  border-radius: 5px;
+  padding: 12px;
+  border: none;
+  color: white;
+  transition: all ease-in-out .3s;
+}
+#button button:hover{
+  background-color: #bb5c66;
+  transition: all ease-in-out .3s;
+  cursor: pointer;
+}
+#cart button{
+  background-color: #E16E79;
+  border-radius: 5px;
+  padding: 12px;
+  border: none;
+  color: white;
+  transition: all ease-in-out .3s;
+}
+#cart button:hover{
+  background-color: #bb5c66;
+  transition: all ease-in-out .3s;
+  cursor: pointer;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin: 30px auto 0;
+  justify-content: center;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+#avis h1{
+  text-align: center;
+  margin-top: 70px;
+}
+#oneReview{
+  margin-left: 90px;
+  margin-bottom: 50px;
+}
+#hehe{
+  display: flex; /* flex pour avoir les #hehe1 soient les uns a côté de l'autres */
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  margin: 0 auto 30px;
+  max-width: 800px;
+}
+#hehe i {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media (max-width: 768px) {
+    #nav-menu {
+        display: none;
+    }
+    #oneReview {
+      margin-left: 40px;
+    }
+    #nav-toggle {
+        display: block;
+    }
+    .container{
+      flex-direction: column;
+    }
+    .left-section{
+      width: 100%;
+    }
+    .right-section{
+      width: 100%;
+      margin-top: 50px;
+    }
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+}
